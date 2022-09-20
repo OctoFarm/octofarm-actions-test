@@ -1,11 +1,9 @@
 /**
- * Just a marker file to make it recognizable for OctoFarm Server
+ * Importable file for OctoFarm server to determin the location of current builds
+ * @type {{returnOctoFarmUIPath: exports.returnOctoFarmUIPath}}
  */
-
-function getOctoFarmUiPath() {
-  return __dirname + "/dist";
-}
-
 module.exports = {
-  getOctoFarmUiPath,
-};
+  returnOctoFarmUIPath: () => {
+
+  }
+}
